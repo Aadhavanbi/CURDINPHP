@@ -1,0 +1,11 @@
+CRITICAL - 2024-02-10 08:27:37 --> ErrorException: Undefined array key "username"
+in APPPATH\Views\edituser.php on line 17.
+ 1 APPPATH\Views\edituser.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\userdata\\app\\Views\\edituser.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\userdata\\app\\Views\\edituser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('edituser', [], true)
+ 5 APPPATH\Controllers\Home.php(96): view('edituser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editUser('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

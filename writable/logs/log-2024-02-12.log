@@ -1,0 +1,71 @@
+CRITICAL - 2024-02-12 03:36:59 --> Error: Class "CountryModel" not found
+in APPPATH\Views\adduser.php on line 25.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('adduser', [], true)
+ 4 APPPATH\Controllers\Home.php(26): view('adduser')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->addUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 03:37:00 --> Error: Class "CountryModel" not found
+in APPPATH\Views\adduser.php on line 25.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('adduser', [], true)
+ 4 APPPATH\Controllers\Home.php(26): view('adduser')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->addUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 03:40:54 --> ErrorException: Undefined variable $countries
+in APPPATH\Views\adduser.php on line 38.
+ 1 APPPATH\Views\adduser.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\userdata\\app\\Views\\adduser.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\userdata\\app\\Views\\adduser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('adduser', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('adduser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 03:42:28 --> ErrorException: Undefined variable $countries
+in APPPATH\Views\adduser.php on line 35.
+ 1 APPPATH\Views\adduser.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\userdata\\app\\Views\\adduser.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\userdata\\app\\Views\\adduser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('adduser', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('adduser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 03:42:31 --> ErrorException: Undefined variable $countries
+in APPPATH\Views\adduser.php on line 35.
+ 1 APPPATH\Views\adduser.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\userdata\\app\\Views\\adduser.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\userdata\\app\\Views\\adduser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('adduser', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('adduser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 03:42:32 --> ErrorException: Undefined variable $countries
+in APPPATH\Views\adduser.php on line 35.
+ 1 APPPATH\Views\adduser.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\userdata\\app\\Views\\adduser.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\userdata\\app\\Views\\adduser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('adduser', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('adduser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 06:24:47 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Home.php on line 59.
+ 1 APPPATH\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\userdata\\app\\Controllers\\Home.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->addUsers()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
